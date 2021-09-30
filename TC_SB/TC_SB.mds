@@ -14,6 +14,11 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
+			<testItem name="Var_URL" key="{5D8314F5-BF31-4841-9287-A040AF6884E2}" group="False" parallel="False" enabled="True" testMoniker="KDT\{61CD5314-CFD0-4F95-80A1-C3E820778C3E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{A3C459AD-E9DB-46A3-AA4F-7AF1260A351E}">
