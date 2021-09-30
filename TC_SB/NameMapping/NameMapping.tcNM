@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{AFD07D88-CC5A-4925-A369-3ECBC679A802}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{922AD98E-23D8-4972-895D-DBEB70FD99D6}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="toolwindowTaskbar" Key="{137FCDD2-0E90-4D1F-8DD2-2D4588DDE899}">
+								<Image FileName="192608966" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="ToolWindow" />
+									</Property>
+									<Property Name="Caption">
+										<Value Value="Taskbar" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="toolwindow" Key="{904C68A4-6847-4513-9155-DC190CEF37AA}">
+										<Image FileName="192608966" Left="486" Top="0" Right="1459" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelRunningApplications" Key="{61BAE86D-62D7-4EDD-8313-3C207AFA375B}">
+												<Image FileName="192608966" Left="488" Top="0" Right="1459" Bottom="40" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Running applications" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="toolbarRunningApplications" Key="{B7A072F4-C7DC-4B1B-A25D-F0AD477B64D3}">
+														<Image FileName="192608966" Left="488" Top="0" Right="1459" Bottom="40" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ToolBar" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Running applications" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="buttonGoogleChrome1RunningWindow" Key="{BFD6519F-254F-4C98-97CE-A00002FA9D3E}">
+																<Image FileName="192608966" Left="540" Top="0" Right="589" Bottom="40" />
+																<TypeInfo Item0="{7C69A812-9E1A-4470-8067-42F97D3A7A3D}" />
+																<Properties>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Google Chrome - 1 running window" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{08DA4BBE-3B70-4BE7-B755-36FDCC1286E2}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{451A2394-9C87-40C6-BA44-8702BEFF6176}">
+								<Image FileName="-875575885" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{3CF231B2-03FC-4D8C-AD8A-DC24F2BEBB3B}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageShop" Key="{2CC8D57F-695C-4832-BD3C-E5E5A64DD618}">
+								<Image FileName="688801406" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{8D962C6D-B5FE-4350-BC66-E0EDBFF97C2C}">
+										<Image FileName="688801406" Left="382" Top="291" Right="1522" Bottom="2252" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to our store&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleSoccer" Key="{3ADBD3B7-EB6E-41BE-B549-576C230D874E}">
+										<Image FileName="688801406" Left="1147" Top="431" Right="1319" Bottom="634" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Soccer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//article[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShowProductsInCategorySoccer" Key="{A62C06CD-B831-4823-84B5-A9EDC709C492}">
+										<Image FileName="688801406" Left="1163" Top="447" Right="1303" Bottom="587" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@title=&apos;Show products in category Soccer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[5]//a[contains(@class, &apos;art-picture&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//article[5]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[5]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imagePictureForCategorySoccer" Key="{BD2B34D9-08EA-49C0-8FE0-A1BAF8F1F710}">
+										<Image FileName="688801406" Left="1167" Top="447" Right="1298" Bottom="587" />
+										<TypeInfo Item0="{CD5E476D-452C-46EC-9CCC-D4EF722645CB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[contains(@src, &apos;soccer.png&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;soccer&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[5]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSoccer" Key="{2107A5A2-EE2F-44A3-9942-AEA7E14AD482}">
+								<Image FileName="688801406" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{50F7B0BC-BBFA-4772-A353-4D1FEC4D3591}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{8E75D6D5-E3C6-4549-984A-2C06898833AA}">
+										<Image FileName="-1477974811" Left="382" Top="283" Right="1522" Bottom="1255" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sports&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleSportsBrand1" Key="{4FB9A241-7C2C-42C1-8F87-34BF87162096}">
+										<Image FileName="-1477974811" Left="1091" Top="486" Right="1297" Bottom="843" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Sports Brand 1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//article[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShowDetailsForOfficialGame" Key="{CCE5903A-B348-46CA-B279-E950B1FB8260}">
+										<Image FileName="-1477974811" Left="1107" Top="502" Right="1281" Bottom="676" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@title=&apos;Show details for Official game ball&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[3]//a[contains(@class, &apos;art-picture&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div[2]/article[3]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/article[3]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageShowDetailsForOfficialGame" Key="{B6969EB5-07C4-4137-B845-2970B4AB9B76}">
+										<Image FileName="-1477974811" Left="1107" Top="538" Right="1281" Bottom="640" />
+										<TypeInfo Item0="{CD5E476D-452C-46EC-9CCC-D4EF722645CB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;Show details for Official game ball&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;torfabrik-official-game-ball&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[3]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{922AD98E-23D8-4972-895D-DBEB70FD99D6}">
+			<Child Name="toolwindowTaskbar" Owner="{137FCDD2-0E90-4D1F-8DD2-2D4588DDE899}">
+				<Child Name="toolwindow" Owner="{904C68A4-6847-4513-9155-DC190CEF37AA}">
+					<Child Name="panelRunningApplications" Owner="{61BAE86D-62D7-4EDD-8313-3C207AFA375B}">
+						<Child Name="toolbarRunningApplications" Owner="{B7A072F4-C7DC-4B1B-A25D-F0AD477B64D3}">
+							<Child Name="buttonGoogleChrome1RunningWindow" Owner="{BFD6519F-254F-4C98-97CE-A00002FA9D3E}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{08DA4BBE-3B70-4BE7-B755-36FDCC1286E2}">
+			<Child Name="BrowserWindow" Owner="{451A2394-9C87-40C6-BA44-8702BEFF6176}" />
+			<Child Name="pageShop" Owner="{2CC8D57F-695C-4832-BD3C-E5E5A64DD618}">
+				<Child Name="sectionContent" Owner="{8D962C6D-B5FE-4350-BC66-E0EDBFF97C2C}">
+					<Child Name="articleSoccer" Owner="{3ADBD3B7-EB6E-41BE-B549-576C230D874E}">
+						<Child Name="linkShowProductsInCategorySoccer" Owner="{A62C06CD-B831-4823-84B5-A9EDC709C492}">
+							<Child Name="imagePictureForCategorySoccer" Owner="{BD2B34D9-08EA-49C0-8FE0-A1BAF8F1F710}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSoccer" Owner="{2107A5A2-EE2F-44A3-9942-AEA7E14AD482}">
+				<Child Name="sectionContent" Owner="{8E75D6D5-E3C6-4549-984A-2C06898833AA}">
+					<Child Name="articleSportsBrand1" Owner="{4FB9A241-7C2C-42C1-8F87-34BF87162096}">
+						<Child Name="linkShowDetailsForOfficialGame" Owner="{CCE5903A-B348-46CA-B279-E950B1FB8260}">
+							<Child Name="imageShowDetailsForOfficialGame" Owner="{B6969EB5-07C4-4137-B845-2970B4AB9B76}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

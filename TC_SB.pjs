@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{ACF53C68-147C-47F7-9419-AB82DDB9B90A}">
+	<children>
+		<child name="TC_SB" key="{C04D82D6-C6DE-46DF-A5FE-C9505ACC8C0B}" path="TC_SB\TC_SB.mds" />
+	</children>
+	<testItems key="{91EB2D44-2FFF-4C08-B313-3527E00DB704}">
+		<children>
+			<testItem key="{C04D82D6-C6DE-46DF-A5FE-C9505ACC8C0B}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{F20A89A7-83B9-4EA5-A50B-5A56C140122B}">
+		<data Version="4">
+			<Items>
+				<Variable Name="VarURL" Type="String" Local="False">
+					<DefValue StrValue="https://services.smartbear.com/samples/testcomplete14/smartstore" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{87BD5B34-1F8B-42DE-9D3B-ECC5A851453F}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

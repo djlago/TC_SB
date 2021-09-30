@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="TC_ADO_routine" key="{903A9C52-DD1D-45C8-90C0-7A122CD84648}" path="TC_ADO_routine.tcKDTest" />
+		<child name="Var_URL" key="{61CD5314-CFD0-4F95-80A1-C3E820778C3E}" path="Var_URL.tcKDTest" />
+	</children>
+</Root>
